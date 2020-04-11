@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/etoile_click"
+        android:enabled="true"
+        android:icon="@android:drawable/btn_star"
+        android:title="Etoile"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/annuler_click"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="annuler"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_click"
+        android:title="Item"
+        app:showAsAction="never" />
+</menu>
